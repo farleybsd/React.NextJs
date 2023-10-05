@@ -1,0 +1,24 @@
+#  Automatic Installation
+shop
+
+No / Yes
+
+What is your project named? my-app = shoph
+Would you like to use TypeScript? =
+Would you like to use ESLint? =
+Would you like to use Tailwind CSS? =
+Would you like to use `src/` directory? =
+Would you like to use App Router? (recommended) =
+Would you like to customize the default import alias (@/*)? =
+What import alias would you like configured? @/* =
+
+# Subindo Aplicacao
+npm run dev 
+
+# Observacao 
+Node.js 16.14 or later.
+
+# Deletar Pasta Api
+
+# Deletar a pasta styles
+
