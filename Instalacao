@@ -22,3 +22,8 @@ Node.js 16.14 or later.
 
 # Deletar a pasta styles
 
+# Css
+npm install @stitches/react
+
+# Carracocel
+npm install keen-slider
