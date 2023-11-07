@@ -1,4 +1,5 @@
 import { HomeContainer, Product } from "@/styles/pages/home"
+import Head  from 'next/head'
 import { styled } from "../styles"
 import camiseta1 from '../assets/camisetas/1.png'
 import camiseta2 from '../assets/camisetas/2.png'
@@ -31,6 +32,9 @@ export default function Home({ products }: HomeProps) {
 
   return (
     <HomeContainer ref={sliderRef} className="keen-slider">
+      <Head>
+        <title>Ignite Shop</title>
+      </Head>
       {products.map(product => {
         return (
           <Link href={`/product/${product.id}`} key={product.id} prefetch={false}>

@@ -8,9 +8,10 @@ const nextConfig = {
     ],
   },
   experimental: {
-    images: {
-      allowFutureImage: true,
-    },
+    // newNextLinkBehavior: true,
+    // images: {
+    //   allowFutureImage: true,
+    // },
   },
 }
 module.exports = nextConfig
